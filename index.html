@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essência Gourmet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Essência Gourmet</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Bem-vindo ao Essência Gourmet, onde os sabores se encontram com a sofisticação. Oferecemos pratos feitos com ingredientes frescos e receitas exclusivas. Nossa missão é proporcionar uma experiência gastronômica inesquecível.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>Entrada: Salada Caesar</li>
+            <li>Prato Principal: Filé Mignon ao Molho Madeira</li>
+            <li>Sobremesa: Torta de Frutas da Estação</li>
+            <li>Bebidas: Vinho da Casa, Refrigerantes e Sucos Naturais</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="galeria-container">
+            <img src="images/prato1.jpg" alt="Prato 1">
+            <img src="images/prato2.jpg" alt="Prato 2">
+            <img src="images/prato3.jpg" alt="Prato 3">
+            <img src="images/prato4.jpg" alt="Prato 4">
+        </div>
+    </section>
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <p>Para fazer uma reserva, entre em contato conosco pelo telefone ou preencha o formulário abaixo.</p>
+        <form id="reservation-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Hora:</label>
+            <input type="time" id="time" name="time" required>
+            <label for="guests">Número de Pessoas:</label>
+            <input type="number" id="guests" name="guests" required>
+            <button type="submit">Reservar</button>
+        </form>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <label for="contact-name">Nome:</label>
+            <input type="text" id="contact-name" name="name" required>
+            <label for="contact-email">Email:</label>
+            <input type="email" id="contact-email" name="email" required>
+            <label for="contact-message">Mensagem:</label>
+            <textarea id="contact-message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Essência Gourmet. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
